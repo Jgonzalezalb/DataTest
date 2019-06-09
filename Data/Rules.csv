@@ -1,0 +1,15 @@
+Control,Description,Active,Date creation,Date inactive,Col1,Col2,Table,CodeRule,Code
+1,Check max of incomes,Y,2018-01-01,9999-01-01,incomes,x,data.csv,12,1
+2,Check min of incomes,Y,2018-01-01,9999-01-01,incomes,x,data.csv,13,1
+3,Check max of outcomes,Y,2018-01-01,9999-01-01,outcomes,x,data.csv,12,1
+4,Check min of outcomes,Y,2018-01-01,9999-01-01,outcomes,x,data.csv,13,1
+5,Check mean of available,Y,2018-01-01,9999-01-01,available,x,data.csv,11,1
+6,Check sd of available,Y,2018-01-01,9999-01-01,available,x,data.csv,14,1
+7,Count of id,Y,2018-01-01,9999-01-01,id,x,data.csv,21,2
+8,Unique id,Y,2018-01-01,9999-01-01,id,x,data.csv,22,2
+9,Top of country,Y,2018-01-01,9999-01-01,country,x,data.csv,23,2
+10,Null of city,Y,2018-01-01,9999-01-01,city,x,data.csv,24,2
+11,Incomes greater than outcomes,Y,2018-01-01,9999-01-01,incomes,outcomes,data.csv,31,3
+12,Incomes greater than available,Y,2018-01-01,9999-01-01,incomes,available,data.csv,31,3
+13,Outcomes lesser than available,Y,2018-01-01,9999-01-01,outcomes,available,data.csv,32,3
+14,Top of gender,Y,2018-01-01,9999-01-01,gender,x,data.csv,23,2
